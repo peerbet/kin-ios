@@ -35,9 +35,9 @@ public extension KinNetwork {
     var agoraUrl: String {
         switch self {
         case .mainNet:
-            return "api.agorainfra.net:" + tlsPort
+            return "127.0.0.1:" + tlsPort
         case .testNet:
-            return "api.agorainfra.dev:" + tlsPort
+            return "127.0.0.1:" + tlsPort
         }
     }
 
